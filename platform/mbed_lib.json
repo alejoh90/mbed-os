@@ -13,7 +13,7 @@
 
         "stdio-buffered-serial": {
             "help": "(Applies if target.console-uart is true and stdio-minimal-console-only is false.) Use BufferedSerial driver to obtain buffered serial I/O on stdin/stdout/stderr. If false, unbuffered serial_getc and serial_putc are used directly.",
-            "value": false
+            "value": true
         },
 
         "stdio-minimal-console-only": {
@@ -148,7 +148,7 @@
         },
         "minimal-printf-enable-floating-point": {
             "help": "Enable floating point printing when using minimal printf library",
-            "value": false
+            "value": true
         },
         "minimal-printf-set-floating-point-max-decimals": {
             "help": "Maximum number of decimals to be printed when using minimal printf library",
